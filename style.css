@@ -1,0 +1,63 @@
+*{
+    text-align: center;
+    background-color:#011F3F;
+    margin:8px;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color:#FEF2BF;
+    font-size:3rem;
+    margin:5%;
+}
+
+.red{
+    height:200px;
+    width:200px;
+    background-color: red;
+}
+
+.yellow{
+    height:200px;
+    width:200px;
+    background-color: yellow;
+}
+
+.blue{
+    height:200px;
+    width:200px;
+    background-color:blue;
+}
+
+.green{
+    height:200px;
+    width:200px;
+    background-color:green;
+}
+
+.btn{
+    border:10px solid black;
+    border-radius:20%;
+    margin:25px;
+}
+
+.container{
+    width: 806px;
+    margin:auto;
+    display: block;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+}
+
+.pressed{
+    background-color: grey;
+    box-shadow: 0 0 0 5px white;
+}
+
+.wrong{
+    background-color: red;
+}
