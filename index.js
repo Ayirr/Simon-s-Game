@@ -40,8 +40,10 @@ function animatePress(currentColor){
 }
 
 $("body").keypress(function(){
-    nextSequence();
-    $("h1").text("Level "+level);
+    if(level===0){
+        nextSequence();
+        $("h1").text("Level "+level);
+    }
 })
 
 function checkAnswer(currentLevel){
